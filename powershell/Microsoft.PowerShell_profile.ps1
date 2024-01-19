@@ -1,4 +1,4 @@
-
+oh-my-posh init pwsh --config='~/.config/omp/catppuccin_mocha.omp.json' | Invoke-Expression
 
 Set-Alias -Name powershell -Value pwsh
 Set-Alias -Name g -Value git

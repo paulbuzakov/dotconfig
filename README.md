@@ -1,1 +1,1 @@
-It's a little configs for my home develop environment
+It's a little config for my home develop environment

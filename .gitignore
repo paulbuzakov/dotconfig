@@ -1,0 +1,2 @@
+#The nvim folder was ignored because it is downloaded from the lazyvim repository
+nvim/**/* 

@@ -1,4 +1,4 @@
-$(/opt/homebrew/bin/brew shellenv) | Invoke-Expression
+$(/usr/local/bin/brew shellenv) | Invoke-Expression
 
 
 oh-my-posh init pwsh --config='~/.config/omp/catppuccin_mocha.omp.json' | Invoke-Expression

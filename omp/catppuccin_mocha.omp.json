@@ -1,22 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-        "os": "#ACB0BE",
-        "closer": "p:os",
-        "pink": "#F5C2E7",
-        "lavender": "#B4BEFE",
-        "blue":  "#89B4FA"
+    "os": "#ACB0BE",
+    "closer": "p:os",
+    "pink": "#F5C2E7",
+    "lavender": "#B4BEFE",
+    "blue": "#89B4FA"
   },
   "blocks": [
     {
       "alignment": "left",
       "segments": [
-        {
-          "foreground": "p:os",
-          "style": "plain",
-          "template": "{{.Name}} ",
-          "type": "shell"
-        },
         {
           "foreground": "p:blue",
           "style": "plain",
@@ -57,6 +51,27 @@
           "foreground": "p:closer",
           "template": "\uf105",
           "type": "text"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "executiontime",
+          "foreground": "p:os",
+          "style": "plain",
+          "template": "{{ .FormattedMs }} ",
+          "properties": {
+            "always_enabled": true
+          }
+        },
+        {
+          "foreground": "p:os",
+          "style": "plain",
+          "template": "{{.Name}}",
+          "type": "shell"
         }
       ],
       "type": "prompt"

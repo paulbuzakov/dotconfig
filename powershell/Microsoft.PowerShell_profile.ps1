@@ -14,3 +14,7 @@ function ll {
 function lla {
   ls -al
 }
+
+function ide {
+  sh ~/.config/ide
+}

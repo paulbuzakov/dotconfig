@@ -22,7 +22,7 @@
           "properties": {
             "folder_icon": "..\ue5fe..",
             "home_icon": "~",
-            "style": "agnoster_short"
+            "style": "full"
           },
           "style": "plain",
           "template": "{{ .Path }} ",
